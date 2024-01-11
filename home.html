@@ -1,0 +1,128 @@
+<!-- prj_12_3.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Catcoder</title>
+    <style type="text/css">
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            color: black;
+        }
+
+        #footer {
+            position: fixed;
+            right: 0px;
+            bottom: 0px;
+            background: #999;
+            color: #fff;
+            display: block;
+            width: 100%;
+            text-align: center;
+            z-index: 10;
+            height: 56px;
+
+        }
+    </style>
+    <link rel="stylesheet" href="./header/header.css">
+    <link rel="stylesheet" href="./banner/banner.css">
+
+</head>
+
+<body>
+    <div id="header">
+        <div id="wrapper">
+            <!-- logo设计 -->
+            <div id="logo">
+                <h1><a href="./home.html">Catcoder</a></h1>
+            </div>
+
+            <!-- 导航设计 -->
+            <div id="nav">
+                <ul>
+                    <li><a href="#">首页</a></li>
+                    <li><a href="#">提单</a></li>
+                    <li><a href="#">竞赛</a></li>
+                    <li><a href="#">职业规划</a></li>
+                </ul>
+            </div>
+
+            <!-- 搜索设计 -->
+            <div id="search">
+                <input type="text" placeholder="输入关键词">
+                <a href="#"><button>搜索</button></a>
+                <!-- ser -->
+            </div>
+
+            <!-- 用户设计 -->
+            <div id="user">
+                <a href="#">
+                    <img src="#" alt="">
+                </a>
+                <span>冰冰的小鱼</span>
+            </div>
+
+            <!-- 注册/登录栏 -->
+            <div id="sign">
+                <a href="#" style="margin-right: 8px;">登录</a>
+                <span>/</span>
+                <a href="#" style="margin-left: 8px;">注册</a>
+            </div>
+        </div>
+    </div>
+
+    <div id="banner">
+        <div id="prev"></div>
+        <div id="next"></div>
+        <ul class="box">
+            <li><img class="img-slide img1" src="./banner/banner_imgs/acm1.png" alt="1"> </li>
+            <li><img class="img-slide img2" src="./banner/banner_imgs/acm2.png" alt="2"></li>
+            <li><img class="img-slide img3" src="./banner/banner_imgs/acm3.png" alt="3"></li>
+            <li><img class="img-slide img4" src="./banner/banner_imgs/acm4.png" alt="4"></li>
+            <li><img class="img-slide img5" src="./banner/banner_imgs/acm5.png" alt="5"></li>
+            <li><img class="img-slide img6" src="./banner/banner_imgs/acm6.png" alt="6"></li>
+        </ul>
+        <ul id="circlebutton">
+            <li>
+                <div class="divEle" style="background: #FF0000;">1</div>
+            </li>
+            <li>
+                <div class="divEle">2</div>
+            </li>
+            <li>
+                <div class="divEle">3</div>
+            </li>
+            <li>
+                <div class="divEle">4</div>
+            </li>
+            <li>
+                <div class="divEle">5</div>
+            </li>
+            <li>
+                <div class="divEle">6</div>
+            </li>
+        </ul>
+    </div>
+    <script type="text/javascript" src="./banner/banner.js"></script>
+
+
+    <div id="footer">
+        <p>
+            Copyright ©2023-2024&nbsp;
+            <strong>
+                @求牌小组
+            </strong>
+            最终解释权归
+            <strong>
+                求牌
+            </strong>
+            所有
+        </p>
+        <br>
+    </div>
+</body>
+
+</html>
